@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #acffae;
+  padding: 15px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #4caf50;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.link:global(.active) {
+  color: #acffae;
+  font-weight: bold;
+}
